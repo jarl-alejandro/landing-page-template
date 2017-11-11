@@ -205,7 +205,8 @@ hr {
 footer {
   width: 100%;
   background: var(--main);
-  height: auto;
+  min-height: 150px;
+  height: 500px;
   justify-content: center; }
   footer .footer-grid {
     display: flex;

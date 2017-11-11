@@ -280,8 +280,8 @@ hr {
 footer {
 	width: 100%;
 	background: var(--main);
-	// min-height: 150px;
-	height: auto;
+	min-height: 150px;
+	height: 500px;
 	justify-content: center;
 
 	.footer-grid {
