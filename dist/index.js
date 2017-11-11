@@ -9,7 +9,7 @@ $(document).ready(function() {
   let animate = false;
   let windowHeight = $(window).scrollTop();
 
-    const load = () => {
+  const load = () => {
     let tl = new TimelineLite();
     tl.from(sectionOne, 1, {left: -300,ease: Power1.easeOut});
     tl.from(navbar, 1, {right: -300}, "+0");
