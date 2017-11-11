@@ -16,7 +16,6 @@ $(document).ready(function(){
 
   $(".navbar a").click(function(){
     var $href = $(this).attr("href");
-    console.log($($href).offset().top);
     $("html, body").stop().animate({
       scrollTop: $($href).offset().top
     }, 1000);

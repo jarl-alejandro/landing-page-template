@@ -278,7 +278,8 @@ footer {
   .hamburger {
     display: block; }
   .section-one {
-    align-items: center; }
+    align-items: center;
+    padding: 50px 0; }
     .section-one__header {
       width: 100%; }
       .section-one__header p {
@@ -297,11 +298,10 @@ footer {
       width: 80%;
       margin: 10px 0;
       border-top: none; }
-  .section-three__grid {
-    flex-direction: column;
+  .section-three__grid, .section-four__grid {
     margin: 30px 0; }
-  .section-one {
-    padding: 50px 0; }
+  .section-three__grid {
+    flex-direction: column; }
   .section-three, .section-four {
     padding: 25px 0; }
     .section-three p, .section-four p {

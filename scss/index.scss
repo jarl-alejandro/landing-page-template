@@ -383,9 +383,10 @@ footer {
 	.hamburger {
 		display: block;
 	}
-
+	
 	.section-one {
 		align-items: center;
+		padding: 50px 0;
 
 			&__header {
 				width: 100%;
@@ -419,13 +420,12 @@ footer {
 		}
 	}
 
-	.section-three__grid {
-		flex-direction: column;
+	.section-three__grid, .section-four__grid {
 		margin: 30px 0;
 	}
 
-	.section-one {
-		padding: 50px 0;
+	.section-three__grid {
+		flex-direction: column;
 	}
 
 	.section-three, .section-four {
