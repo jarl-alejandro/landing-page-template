@@ -20,8 +20,8 @@ $(document).ready(function() {
 
   const animateService = () => {
     let child = Array.from($(".section-two .child"));
+    animate = true;
     child.forEach((item, index) => {
-      animate = true;
       let delay = 0.2 * index;
       let tl = new TimelineMax();
       tl.fromTo($(item), 1, {top: -100}, {top: 0,ease: Power1.easeInOut}, delay);
