@@ -231,11 +231,11 @@ section {
 		filter: grayscale(1) brightness(1.1);
 		border: 0;
 		width: 120px;
-		height: 100px;
+		height: 120px;
 		flex-direction: column;
 		justify-content: center;
 		margin: 5px; 
-		
+
 		img {
 			width: 70px;
 		}
@@ -252,10 +252,6 @@ section {
 
 .section-four__grid {
 	max-width: 35%;
-
-	.child {
-		// margin: 0 5px;
-	}
 }
 
 
