@@ -184,10 +184,13 @@ section {
 	}
 
 	.child {
+		position: relative;
 		width: var(--size);
 		border-top: 1px solid var(--border);
 		height: 150px;
 		margin: 30px;
+		// transition: 0.6s all ease;
+		// opacity: 0;
 	}
 
 	.heading {
@@ -228,6 +231,7 @@ section {
 	margin: 50px 0;
 
 	.child {
+		position: relative;
 		filter: grayscale(1) brightness(1.1);
 		border: 0;
 		width: 120px;
@@ -386,7 +390,7 @@ footer {
 
 	.section-one {
 		align-items: center;
-		padding: 50px 0;
+		padding:  0;
 
 			&__header {
 				width: 100%;

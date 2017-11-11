@@ -133,6 +133,7 @@ section {
     justify-content: center;
     width: 90%; }
   .section-two .child {
+    position: relative;
     width: var(--size);
     border-top: 1px solid var(--border);
     height: 150px;
@@ -167,6 +168,7 @@ section {
   flex-wrap: wrap;
   margin: 50px 0; }
   .section-three__grid .child, .section-four__grid .child {
+    position: relative;
     filter: grayscale(1) brightness(1.1);
     border: 0;
     width: 120px;
@@ -279,7 +281,7 @@ footer {
     display: block; }
   .section-one {
     align-items: center;
-    padding: 50px 0; }
+    padding: 0; }
     .section-one__header {
       width: 100%; }
       .section-one__header p {
