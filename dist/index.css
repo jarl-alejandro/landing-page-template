@@ -170,7 +170,7 @@ section {
     filter: grayscale(1) brightness(1.1);
     border: 0;
     width: 120px;
-    height: 150px;
+    height: 100px;
     flex-direction: column;
     justify-content: center; }
     .section-three__grid .child img, .section-four__grid .child img {
