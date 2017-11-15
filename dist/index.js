@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(() => {
 
   let hamburger = $(".hamburger");
   let navbar = $(".navbar");
