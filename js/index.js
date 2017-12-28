@@ -61,7 +61,7 @@ $(document).ready(() => {
 
 
 // animation on scroll
-  $(window).scroll(function() {
+  $(window).scroll(() => {
     let windowHeight = $(window).scrollTop();
 
     if (windowHeight >= (sectionTwoTop - 450) && !isMobile()) {
